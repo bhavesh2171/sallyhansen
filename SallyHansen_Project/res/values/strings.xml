@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SallyHansen</string>
+    <string name="whats_new">Whats New</string>
+    <string name="create_my_look">create My Look</string>
+    <string name="my_saved_looks">My Saved Looks</string>
+    <string name="find_my_color">Find My Color</string>
+    <string name="find_my_store">Find My Store</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+   <string name="create_look">Create Look</string>
+    <string name="select_a_template">Select a Template</string>
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_drawer</item>
+        <item>@drawable/ic_drawer</item>
+        <item>@drawable/ic_drawer</item>
+        <item>@drawable/ic_drawer</item>
+        <item>@drawable/ic_drawer</item>
+    </array>
+
+    
+        <!-- Intent values -->
+    <string name="hand">HAND</string>
+    <string name="hand_type">HANDTYPE</string>
+    <string name="hand_side">HANDSIDE</string>
+    <string name="hand_side_left">LEFT</string>
+    <string name="hand_side_right">RIGHT</string>
+    <string name="hand_type_open">OPEN</string>
+    <string name="hand_type_close">CLOSE</string>
+    <string name="cml_type">CML_TYPE</string>
+    <string name="cml_default">CML_DEFAULT</string>
+    <string name="cml_own">CML_OWN</string>
+    <string name="bmp">BMP</string>
+    <string name="nail_array">NAIL_ARRAY</string>
+    <string name="screen">SCREEN</string>
+    
+    
+</resources>

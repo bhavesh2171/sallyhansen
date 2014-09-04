@@ -1,0 +1,40 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="roundedShadeView">
+
+        <!-- 3dp so the background border to be visible -->
+        <item name="android:padding">3dp</item>
+        <item name="android:background">@drawable/rounded</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <style name="SEEKBAR">
+        <item name="android:progressDrawable">@drawable/sliderbase</item>
+        <item name="android:indeterminateDrawable">@drawable/sliderbase</item>
+        <item name="android:thumb">@drawable/slidercircle</item>
+        <item name="android:indeterminate">false</item>
+        <item name="android:focusable">true</item>
+        <item name="android:minHeight">12dip</item>
+        <item name="android:maxHeight">12dip</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+</resources>
